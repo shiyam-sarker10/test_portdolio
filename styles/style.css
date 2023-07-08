@@ -1,4 +1,7 @@
 /* common shared style  */
+* {
+  margin: 0;
+}
 body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -15,12 +18,26 @@ body {
   background: #fd6e0a;
   padding: 15px 35px;
 }
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-discription {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: 30px 0;
+}
 /* nav related styles  */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 200px;
+  padding: 20px 200px;
 }
 .nav-title {
   color: #181818;
@@ -42,12 +59,81 @@ nav a {
 /* header related styles  */
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 100vh;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .banner .profile-pic {
-  width: 500px;
+  width: 552px;
+}
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-discription {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+}
+.banner-content {
+  max-width: 585px;
+}
+.banner-content .right-banner-btn {
+  margin-right: 30px;
+}
+.banner-content .left-banner-btn {
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  background-color: #fff8f3;
+  color: #fd6e0a;
+}
+.fa-sharp {
+  padding-right: 5px;
+}
+
+/* main section styles  */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about section styles  */
+.about {
+  margin: 130px 0px;
+  border-radius: 10px;
+  background: #fff8f3;
+  padding: 130px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-title {
+  margin-bottom: 0px;
+  text-align: center;
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.info-discription {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
 }

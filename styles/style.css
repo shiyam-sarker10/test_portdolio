@@ -1,8 +1,4 @@
 /* common shared style  */
-*{
-    margin:0 ;
-    padding: 0;
-}
 body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -11,10 +7,10 @@ body {
   color: #fd6e0a;
 }
 .btn-primary {
-  color:  #fff;;
+  color: #fff;
   font-size: 20px;
   font-weight: 700;
-  border:0;
+  border: 0;
   border-radius: 5px;
   background: #fd6e0a;
   padding: 15px 35px;
@@ -24,6 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .nav-title {
   color: #181818;
@@ -41,4 +38,16 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+/* header related styles  */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic {
+  width: 500px;
 }

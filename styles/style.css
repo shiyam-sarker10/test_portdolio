@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 .text-primary {
-  color: #fd6e0a;
+  color: #09DE1F;
 }
 .btn-primary {
   color: #fff;
@@ -15,7 +15,7 @@ body {
   font-weight: 700;
   border: 0;
   border-radius: 5px;
-  background: #fd6e0a;
+  background: #09DE1F;
   padding: 15px 35px;
 }
 .section-title {
@@ -24,7 +24,7 @@ body {
   font-size: 35px;
   font-weight: 700;
 }
-.section-discription {
+.section-description {
   color: #757575;
   font-size: 18px;
   font-weight: 400;
@@ -58,7 +58,7 @@ nav a {
 }
 /* header related styles  */
 .header {
-  background-color: #fff8f3;
+  background-color: #F3FFF4;
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -71,7 +71,7 @@ nav a {
   justify-content: space-between;
 }
 .banner .profile-pic {
-  width: 552px;
+  width: 480px;
 }
 .banner-greeting {
   color: #474747;
@@ -86,7 +86,7 @@ nav a {
   margin-top: 5px;
   margin-bottom: 20px;
 }
-.banner-discription {
+.banner-description {
   color: #757575;
   font-size: 18px;
   line-height: 30px;
@@ -99,9 +99,9 @@ nav a {
 }
 .banner-content .left-banner-btn {
   border-radius: 5px;
-  border: 1px solid #fd6e0a;
-  background-color: #fff8f3;
-  color: #fd6e0a;
+  border: 1px solid #09DE1F;
+  background-color: #F3FFF4;
+  color: #09DE1F;
 }
 .fa-sharp {
   padding-right: 5px;
@@ -116,7 +116,7 @@ main {
 .about {
   margin: 130px 0px;
   border-radius: 10px;
-  background: #fff8f3;
+  background: #F3FFF4;
   padding: 130px;
 }
 .about-info-container {
@@ -131,9 +131,42 @@ main {
   font-weight: 400;
   line-height: 30px;
 }
-.info-discription {
+.info-description {
   color: #474747;
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
 }
+/* what i do section  */
+.what-i-do{
+margin: 130px 0px;
+}
+
+.wid-description{
+  padding: 0px 110px;
+}
+.card-container{
+  display: flex;
+  gap:25px;
+  margin:50px 0px;
+}
+.card{
+  box-shadow: 2px 2px 40px #f0eeee;
+  width:200px;
+  height: 325px;
+  padding:30px;
+}
+.card-title{
+color: #181818;
+font-size: 20px;
+font-weight: 700;
+padding-top: 30px;
+
+}
+.card-description{
+color: #757575;
+font-size: 16px;
+line-height: 28px;
+padding-top:20px;
+}
+/* resume section start  */

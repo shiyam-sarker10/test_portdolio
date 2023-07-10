@@ -63,6 +63,7 @@ nav a {
   background-repeat: no-repeat;
   background-position: bottom right;
   height: 100vh;
+  position: relative;
 }
 .banner {
   padding: 30px 30px 0px 150px;
@@ -70,8 +71,26 @@ nav a {
   align-items: center;
   justify-content: space-between;
 }
+
+#circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 152px;
+  background: #98F3A1;
+  border-radius: 50px;
+  border-top-right-radius: 50%;
+  position: absolute;
+  right: 140px;
+  bottom: 0px;
+}
+#circle h3{
+  color: white;
+}
+
 .banner .profile-pic {
-  width: 480px;
+  width: 450px;/*479*/
 }
 .banner-greeting {
   color: #474747;
@@ -96,12 +115,14 @@ nav a {
 }
 .banner-content .right-banner-btn {
   margin-right: 30px;
+  margin-top: 20px;
 }
 .banner-content .left-banner-btn {
   border-radius: 5px;
   border: 1px solid #09de1f;
   background-color: #f3fff4;
   color: #09de1f;
+  margin-top: 20px;
 }
 .fa-sharp {
   padding-right: 5px;
@@ -190,27 +211,75 @@ main {
   font-weight: 700;
   padding-bottom: 10px;
 }
-.degree-sub-caption{
-color: #757575;
-font-size: 20px;
-font-weight: 500;
+.degree-sub-caption {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 500;
 }
-.degree-description{
-color: #757575;
-font-size: 16px;
-line-height: 28px;
-padding:20px 0px;
-border-bottom: 1px solid #D1D1D1;
+.degree-description {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 30px 0px;
+  border-bottom: 1px solid #d1d1d1;
+  text-align: justify;
 }
-.last-description{
-  border:none;
-
+.last-description {
+  border: none;
 }
-.download-btn{
+.download-btn {
   display: flex;
   justify-content: center;
   margin-bottom: 120px;
-
 }
 
 /* footer section styles  */
+.footer {
+  display: flex;
+  gap: 100px;
+  background-color: #f3fff4;
+  padding: 130px 200px;
+  margin-top: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.footer-title {
+  text-align: left;
+}
+.footer-description {
+  text-align: left;
+}
+.footer-icons {
+  padding-right: 15px;
+}
+.footer-column input,
+textarea {
+  border: none;
+  background-color: white;
+  margin: 20px 0;
+  padding: 15px 30px;
+  width: 75%;
+}
+.footer-column textarea:focus {
+  border: none;
+  outline: none;
+  border-color: #09de1f;
+  border-bottom: 2px solid #09de1f;
+  color: #09de1f;
+}
+.footer-column input:focus {
+  border: none;
+  outline: none;
+  border-color: #09de1f;
+  border-bottom: 2px solid #09de1f;
+  color: #09de1f;
+}
+
+.footer-column input::placeholder {
+  color: #09de1f;
+}
+
+.footer-column textarea::placeholder {
+  color: #09de1f;
+}
